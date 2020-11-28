@@ -4,7 +4,7 @@ Simple Web Application using [Vert.X](https://vertx.io) which consumes data from
 
 This project was developed as a three-phased project in Modelação e Padrões de Desenho (Modeling and Design Patterns) subject in [ISEL](https://www.isel.pt) during my degree in Computer Science and Computer Engineering.
 
-There was three phases in the project:
+There were three phases in the project:
 
 * Phase 1 => The objective was to implement Java `Stream` methods using simple `Iterator`'s and developing the needed methods for retrieving information from TMDB using those methods
 * Phase 2 => The objective was to replace all usage of our `Queries` class by Java `Stream`'s and make the needed changes
