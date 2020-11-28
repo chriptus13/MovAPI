@@ -71,7 +71,7 @@ gradle-movweb.setting
 !gradle-wrapper.jar
 
 # Cache of project
-.gradletasknamecachºe
+.gradletasknamecache
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
