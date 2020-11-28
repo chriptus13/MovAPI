@@ -30,6 +30,8 @@ There was three phases in the project:
 
 ## Dependencies
 
+* [Guava](https://github.com/google/guava)
+* [GSON](https://github.com/google/gson)
 * [AsyncHttpClient](https://github.com/AsyncHttpClient/async-http-client)
 * [Vert.X](https://vertx.io)
 
