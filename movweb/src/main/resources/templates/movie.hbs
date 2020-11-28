@@ -1,0 +1,41 @@
+<!doctype html>
+    <head>
+        <title>{{movie.originalTitle}}</title>
+    </head>
+    <style media='screen'>
+        p, h1 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .centered {
+            text-align: center;
+        }
+        a.button {
+            background-color: white;
+            border: 2px solid #437512;
+            color: black;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        a.button:hover {
+            background-color: #437512;
+            color: white;
+        }
+    </style>
+    <body>
+        <h1>{{movie.originalTitle}}</h1>
+        <img src="https://image.tmdb.org/t/p/w300{{movie.poster_path}}"/>
+        <br>
+        <p><b>ID: </b>{{movie.id}}</p>
+        <p><b>Release Date: </b>{{movie.releaseDate}}</p>
+        <p><b>Tagline: </b>{{movie.tagline}}</p>
+        <p><b>Overview: </b>{{movie.overview}}</p>
+        <p><b>Vote Average: </b>{{movie.voteAverage}}</p>
+        <a href="/movies/{{movie.id}}/credits" class="button">Cast</a>
+    </body>
+</html>

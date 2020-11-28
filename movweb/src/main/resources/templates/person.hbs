@@ -1,0 +1,40 @@
+<!doctype html>
+    <head>
+        <title>{{person.name}}</title>
+    </head>
+    <style media='screen'>
+        p, h1 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .centered {
+            text-align: center;
+        }
+        a.button {
+            background-color: white;
+            border: 2px solid #437512;
+            color: black;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        a.button:hover {
+            background-color: #437512;
+            color: white;
+        }
+    </style>
+    <body>
+        <h1>{{person.name}}</h1>
+        <img src="https://image.tmdb.org/t/p/w300{{person.profile_path}}"/>
+        <br>
+        <p><b>ID: </b>{{person.id}}</p>
+        <p><b>Name: </b>{{person.name}}</p>
+        <p><b>Place of Birth: </b>{{person.placeOfBirth}}</p>
+        <p><b>Biography: </b>{{person.biography}}</p>
+        <a href="/person/{{person.id}}/movies" class="button">Filmography</a>
+    </body>
+</html>
